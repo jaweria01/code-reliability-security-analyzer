@@ -61,7 +61,7 @@ The analyzer scans entire directories, detects potentially unsafe coding pattern
 
 Example output showing detection of dangerous functions, suspicious imports, hardcoded secrets, and unused variables.
 
-![Security Detection Output](screenshots/security_detection_output.png)
+![Security Detection Output](https://github.com/jaweria01/code-reliability-security-analyzer/blob/c164fb2068ec54cf629cee2be2a198d455b58209/screenshots/terminal-output-buggy_code.png)
 ![Security Detection Output](screenshots/security_detection_output.png)
 ![Security Detection Output](screenshots/security_detection_output.png)
 
