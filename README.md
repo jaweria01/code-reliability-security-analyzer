@@ -53,7 +53,6 @@ The following screenshots demonstrate the analyzer detecting potential security 
 
 The analyzer scans entire directories, detects potentially unsafe coding patterns, classifies issue severity levels, and provides remediation suggestions.
 
-![Directory Scan Output](screenshots/directory_scan_output.png)
 
 ---
 
