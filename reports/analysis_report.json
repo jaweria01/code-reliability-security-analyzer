@@ -1,0 +1,82 @@
+[
+    {
+        "type": "Hardcoded Secret",
+        "severity": "HIGH",
+        "line": 3,
+        "message": "Possible hardcoded password detected.",
+        "suggestion": "Use environment variables or secret managers instead of hardcoding credentials.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Suspicious Import",
+        "severity": "MEDIUM",
+        "line": 5,
+        "message": "Importing 'os' may require security review.",
+        "suggestion": "Review whether this module is necessary and ensure safe usage.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Suspicious Import",
+        "severity": "MEDIUM",
+        "line": 6,
+        "message": "Importing 'subprocess' may require security review.",
+        "suggestion": "Review whether this module is necessary and ensure safe usage.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Dangerous Function",
+        "severity": "HIGH",
+        "line": 14,
+        "message": "Use of eval() can be dangerous.",
+        "suggestion": "Avoid eval(). Consider safer parsing or validation methods.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Dangerous Function",
+        "severity": "HIGH",
+        "line": 16,
+        "message": "Use of exec() can be dangerous.",
+        "suggestion": "Avoid exec() unless absolutely necessary.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Unused Variable",
+        "severity": "LOW",
+        "line": 1,
+        "message": "The variable 'temp' is assigned but never used.",
+        "suggestion": "Remove unused variables to improve code readability and maintainability.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Unused Variable",
+        "severity": "LOW",
+        "line": 3,
+        "message": "The variable 'password' is assigned but never used.",
+        "suggestion": "Remove unused variables to improve code readability and maintainability.",
+        "file": "samples/buggy_code.py"
+    },
+    {
+        "type": "Suspicious Import",
+        "severity": "MEDIUM",
+        "line": 3,
+        "message": "Importing 'os' may require security review.",
+        "suggestion": "Review whether this module is necessary and ensure safe usage.",
+        "file": "samples/test_code.py"
+    },
+    {
+        "type": "Dangerous Function",
+        "severity": "HIGH",
+        "line": 7,
+        "message": "Use of exec() can be dangerous.",
+        "suggestion": "Avoid exec() unless absolutely necessary.",
+        "file": "samples/test_code.py"
+    },
+    {
+        "type": "Unused Variable",
+        "severity": "LOW",
+        "line": 1,
+        "message": "The variable 'api_key' is assigned but never used.",
+        "suggestion": "Remove unused variables to improve code readability and maintainability.",
+        "file": "samples/test_code.py"
+    }
+]
