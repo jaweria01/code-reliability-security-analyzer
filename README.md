@@ -43,6 +43,47 @@ The project was developed to explore concepts related to:
 
 ---
 
+---
+
+## Sample Analysis Outputs
+
+The following screenshots demonstrate the analyzer detecting potential security vulnerabilities and software reliability issues across multiple Python files.
+
+### Multi-file Project Analysis
+
+The analyzer scans entire directories, detects potentially unsafe coding patterns, classifies issue severity levels, and provides remediation suggestions.
+
+![Directory Scan Output](screenshots/directory_scan_output.png)
+
+---
+
+### Security and Reliability Issue Detection
+
+Example output showing detection of dangerous functions, suspicious imports, hardcoded secrets, and unused variables.
+
+![Security Detection Output](screenshots/security_detection_output.png)
+![Security Detection Output](screenshots/security_detection_output.png)
+![Security Detection Output](screenshots/security_detection_output.png)
+
+---
+
+### Analysis Summary Dashboard
+
+The tool generates a final analysis summary including the number of scanned files and categorized issue statistics.
+
+![Analysis Summary](screenshots/analysis_summary.png)
+
+---
+
+### JSON Report Generation
+
+The analyzer exports structured machine-readable JSON reports for further processing and automation workflows.
+
+![JSON Report](screenshots/json_report.png)
+
+
+---
+
 ## Project Structure
 
 ```bash
