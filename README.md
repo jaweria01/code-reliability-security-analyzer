@@ -79,7 +79,7 @@ The tool generates a final analysis summary including the number of scanned file
 
 The analyzer exports structured machine-readable JSON reports for further processing and automation workflows.
 
-![JSON Report](screenshots/json_report.png)
+See json file under **reports** folder
 
 
 ---
