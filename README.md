@@ -43,8 +43,6 @@ The project was developed to explore concepts related to:
 
 ---
 
----
-
 ## Sample Analysis Outputs
 
 The following screenshots demonstrate the analyzer detecting potential security vulnerabilities and software reliability issues across multiple Python files.
